@@ -1,0 +1,22 @@
+{
+    "name": "nam123/bold-word",
+    "description": "bold equals words in paragraph",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Nam",
+            "email": "tiennam1999hp@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nam\\Boldword\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
